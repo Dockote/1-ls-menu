@@ -666,3 +666,63 @@ body{
         margin-top: 40px;
     }
 }
+
+.Catalogwrap{
+    background: #F8F3F4;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    Height: 148px;
+    }
+
+@media (max-width: 376px) { 
+    .Catalogwrap {
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ text-align: center;
+
+    }
+}
+
+.CatalogBrandLeft {
+    align-items: center;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F16D7F;
+    width: 50%;
+    font-size: 24px;
+}   
+
+.CatalogBrandRight {
+    align-items: center;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    width: 50%;
+    font-size: 14px;
+}
+
+.colourtext {
+    color: #F16D7F;
+}
+
+.ShopFeature {
+    font-size: 14px;
+    display: grid;
+}
+
+.Filter {
+    text-align: left;
+    display: flex;
+}
+
+.ShopFilter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
