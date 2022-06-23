@@ -726,3 +726,31 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.Layer {
+    display: grid;
+    justify-items: center;
+    background-color: #F7F7F7;
+    justify-content: center;
+}
+
+.SellCart {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.sellx {
+    border-bottom: 6px solid #f16d7f;
+    border-left: none;
+    color: #F16D7F;
+}
+
+.Chooser {
+    display: flex;
+  justify-content: center;
+
+}
