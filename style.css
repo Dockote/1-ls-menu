@@ -824,3 +824,41 @@ body{
 .adress {
     width: 360px;
 padding-left: 30px;}
+
+.registration{
+    display: flex;
+    justify-items: center;
+    padding: 5% 10%;
+}
+
+.regleft {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+ }
+
+.regright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ratio{
+    display: flex;
+}
+.underpass {
+color: #B1B1B1;
+width: 40%;
+
+}
+.Loyaltyprogramm{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 376px) {
+    .registration {
+        display: flex;
+        flex-direction: column;
+    }
+}
