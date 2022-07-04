@@ -862,3 +862,16 @@ width: 40%;
         flex-direction: column;
     }
 }
+
+ul{
+    list-style: none;
+}
+ul > li{
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+ul > li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    }
